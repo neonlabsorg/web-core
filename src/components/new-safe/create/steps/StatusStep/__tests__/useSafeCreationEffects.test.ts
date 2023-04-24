@@ -1,6 +1,6 @@
 import { renderHook } from '@/tests/test-utils'
 import { SafeCreationStatus } from '@/components/new-safe/create/steps/StatusStep/useSafeCreation'
-import { type SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import { type SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import * as web3 from '@/hooks/wallets/web3'
 import * as pendingSafe from '@/components/new-safe/create/logic'
 import { Web3Provider } from '@ethersproject/providers'

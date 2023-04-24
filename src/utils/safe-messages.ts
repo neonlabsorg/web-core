@@ -1,6 +1,6 @@
 import { hashMessage } from 'ethers/lib/utils'
 import { gte } from 'semver'
-import type { SafeInfo, SafeMessage, EIP712TypedData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo, SafeMessage, EIP712TypedData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { hashTypedData } from '@/utils/web3'
 import { isValidAddress } from './validation'

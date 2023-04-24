@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { getTransactionQueue, type TransactionListPage } from '@safe-global/safe-gateway-typescript-sdk'
+import { getTransactionQueue, type TransactionListPage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import useAsync, { type AsyncResult } from '../useAsync'
 import useSafeInfo from '../useSafeInfo'
 import { Errors, logError } from '@/services/exceptions'

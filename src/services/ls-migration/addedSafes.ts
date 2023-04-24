@@ -3,7 +3,7 @@ import type { LOCAL_STORAGE_DATA } from './common'
 import { parseLsValue } from './common'
 import { isChecksummedAddress } from '@/utils/addresses'
 import { isObject } from 'lodash'
-import type { AddressEx } from '@safe-global/safe-gateway-typescript-sdk'
+import type { AddressEx } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 const IMMORTAL_PREFIX = '_immortal|v2_'
 

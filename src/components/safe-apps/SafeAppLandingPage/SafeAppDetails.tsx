@@ -1,4 +1,4 @@
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { Box } from '@mui/system'
 import Typography from '@mui/material/Typography'
 import Divider from '@mui/material/Divider'

@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 const useAppsFilterByCategory = (safeApps: SafeAppData[], selectedCategories: string[]): SafeAppData[] => {
   const filteredApps = useMemo(() => {

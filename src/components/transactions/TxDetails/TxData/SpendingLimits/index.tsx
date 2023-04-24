@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react'
 import React, { useMemo } from 'react'
-import type { Custom, TransactionData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { Custom, TransactionData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { Box, Typography } from '@mui/material'
 import EthHashInfo from '@/components/common/EthHashInfo'
 import TokenIcon from '@/components/common/TokenIcon'

@@ -7,18 +7,18 @@ import {
   getSafeSingletonDeployment,
   getSignMessageLibDeployment,
   type SingletonDeployment,
-} from '@safe-global/safe-deployments'
+} from 'gnosis-neon-safe-deployments'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 import semverSatisfies from 'semver/functions/satisfies'
-import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'
-import type { ChainInfo, SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
-import type { GetContractProps, SafeVersion } from '@safe-global/safe-core-sdk-types'
+import { ImplementationVersionState } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { ChainInfo, SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { GetContractProps, SafeVersion } from 'gnosis-neon-safe-core-sdk-types'
 import { assertValidSafeVersion, createEthersAdapter, createReadOnlyEthersAdapter } from '@/hooks/coreSDK/safeCoreSDK'
-import type SignMessageLibEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/SignMessageLib/SignMessageLibEthersContract'
-import type CompatibilityFallbackHandlerEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
+import type SignMessageLibEthersContract from 'gnosis-neon-safe-ethers-lib/dist/src/contracts/SignMessageLib/SignMessageLibEthersContract'
+import type CompatibilityFallbackHandlerEthersContract from 'gnosis-neon-safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
 import type { Web3Provider } from '@ethersproject/providers'
-import type GnosisSafeContractEthers from '@safe-global/safe-ethers-lib/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
-import type EthersAdapter from '@safe-global/safe-ethers-lib'
+import type GnosisSafeContractEthers from 'gnosis-neon-safe-ethers-lib/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
+import type EthersAdapter from 'gnosis-neon-safe-ethers-lib'
 
 // `UNKNOWN` is returned if the mastercopy does not match supported ones
 // @see https://github.com/safe-global/safe-client-gateway/blob/main/src/routes/safes/handlers/safes.rs#L28-L31

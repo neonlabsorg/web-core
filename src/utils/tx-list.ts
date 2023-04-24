@@ -1,4 +1,4 @@
-import type { Transaction, TransactionListItem } from '@safe-global/safe-gateway-typescript-sdk'
+import type { Transaction, TransactionListItem } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { isConflictHeaderListItem, isNoneConflictType, isTransactionListItem } from '@/utils/transaction-guards'
 
 type GroupedTxs = Array<TransactionListItem | Transaction[]>

@@ -1,6 +1,6 @@
 import { hexZeroPad } from 'ethers/lib/utils'
-import { SafeMessageStatus, SafeMessageListItemType } from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeMessageListItem } from '@safe-global/safe-gateway-typescript-sdk'
+import { SafeMessageStatus, SafeMessageListItemType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { SafeMessageListItem } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { safeMsgDispatch, SafeMsgEvent } from '@/services/safe-messages/safeMsgEvents'
 import { showNotification } from '@/store/notificationsSlice'

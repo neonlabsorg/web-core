@@ -9,7 +9,7 @@ import Box from '@mui/material/Box'
 import { resolveHref } from 'next/dist/shared/lib/router/router'
 import classNames from 'classnames'
 import type { ReactNode, SyntheticEvent } from 'react'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { NextRouter } from 'next/router'
 import type { UrlObject } from 'url'
 

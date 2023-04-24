@@ -1,7 +1,7 @@
 import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import type { ReactElement } from 'react'
-import type { SafeMessage } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeMessage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import MsgDetails from '@/components/safe-messages/MsgDetails'
 import MsgSummary from '@/components/safe-messages/MsgSummary'

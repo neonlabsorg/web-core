@@ -1,11 +1,11 @@
 import { act, renderHook } from '@testing-library/react'
-import * as gateway from '@safe-global/safe-gateway-typescript-sdk'
+import * as gateway from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import * as useChainIdHook from '@/hooks/useChainId'
 import { useRemoteSafeApps } from '@/hooks/safe-apps/useRemoteSafeApps'
 import type { SafeAppsTag } from '@/config/constants'
 
-jest.mock('@safe-global/safe-gateway-typescript-sdk')
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk')
 
 describe('useRemoteSafeApps', () => {
   beforeEach(() => {

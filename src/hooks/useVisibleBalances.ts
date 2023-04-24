@@ -1,5 +1,5 @@
 import { safeFormatUnits, safeParseUnits } from '@/utils/formatters'
-import type { SafeBalanceResponse } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeBalanceResponse } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { BigNumber } from 'ethers'
 import { useMemo } from 'react'
 import useBalances from './useBalances'

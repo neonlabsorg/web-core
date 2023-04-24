@@ -2,7 +2,7 @@ import { renderHook, waitFor } from '@/tests/test-utils'
 import { useLeastRemainingRelays, useRelaysBySafe } from '@/hooks/useRemainingRelays'
 import * as useSafeInfo from '@/hooks/useSafeInfo'
 import * as useChains from '@/hooks/useChains'
-import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ChainInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { FEATURES } from '@/utils/chains'
 import { SAFE_RELAY_SERVICE_URL } from '@/services/tx/relaying'
 

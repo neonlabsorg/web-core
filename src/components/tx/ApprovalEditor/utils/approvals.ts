@@ -1,7 +1,7 @@
 import { ERC20__factory } from '@/types/contracts'
 import { UNLIMITED_APPROVAL_AMOUNT } from '@/utils/tokens'
-import type { BaseTransaction } from '@safe-global/safe-apps-sdk'
-import type { DecodedDataResponse, TokenInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { BaseTransaction } from 'gnosis-neon-safe-apps-sdk'
+import type { DecodedDataResponse, TokenInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { parseUnits, id } from 'ethers/lib/utils'
 
 export const APPROVAL_SIGNATURE_HASH = id('approve(address,uint256)').slice(0, 10)

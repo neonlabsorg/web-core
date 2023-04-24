@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { getCollectiblesPage, type SafeCollectiblesPage } from '@safe-global/safe-gateway-typescript-sdk'
+import { getCollectiblesPage, type SafeCollectiblesPage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import useAsync, { type AsyncResult } from './useAsync'
 import { Errors, logError } from '@/services/exceptions'
 import useSafeInfo from './useSafeInfo'

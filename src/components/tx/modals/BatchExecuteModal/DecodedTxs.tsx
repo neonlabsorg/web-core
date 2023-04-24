@@ -1,4 +1,4 @@
-import type { DataDecoded, TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
+import type { DataDecoded, TransactionDetails } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { Box } from '@mui/material'
 import useSafeInfo from '@/hooks/useSafeInfo'
 import extractTxInfo from '@/services/tx/extractTxInfo'

@@ -2,7 +2,7 @@ import { txHistoryMiddleware, txHistorySlice } from '../txHistorySlice'
 import * as txEvents from '@/services/tx/txEvents'
 import * as mockPendingTxs from '../pendingTxsSlice'
 import { PendingStatus } from '../pendingTxsSlice'
-import { TransactionListItemType } from '@safe-global/safe-gateway-typescript-sdk'
+import { TransactionListItemType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { TxEvent } from '@/services/tx/txEvents'
 
 const create = () => {

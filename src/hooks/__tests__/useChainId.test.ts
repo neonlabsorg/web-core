@@ -6,7 +6,7 @@ import { renderHook } from '@/tests/test-utils'
 import * as useWalletHook from '@/hooks/wallets/useWallet'
 import * as useChains from '@/hooks/useChains'
 import type { ConnectedWallet } from '@/services/onboard'
-import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ChainInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 // mock useRouter
 jest.mock('next/router', () => ({

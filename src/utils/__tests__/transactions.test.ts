@@ -1,4 +1,4 @@
-import type { ConflictHeader, DateLabel, Label, Transaction } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ConflictHeader, DateLabel, Label, Transaction } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { getQueuedTransactionCount } from '../transactions'
 
 describe('transactions', () => {

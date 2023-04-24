@@ -1,4 +1,4 @@
-import * as gateway from '@safe-global/safe-gateway-typescript-sdk'
+import * as gateway from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { JsonRpcSigner } from '@ethersproject/providers'
 
 import { dispatchSafeMsgConfirmation, dispatchSafeMsgProposal } from '@/services/safe-messages/safeMsgSender'
@@ -8,8 +8,8 @@ import * as sdk from '@/services/tx/tx-sender/sdk'
 import { hexZeroPad } from 'ethers/lib/utils'
 import type { EIP1193Provider, OnboardAPI, WalletState, AppState } from '@web3-onboard/core'
 
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
-  ...jest.requireActual('@safe-global/safe-gateway-typescript-sdk'),
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
+  ...jest.requireActual('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'),
   proposeSafeMessage: jest.fn(),
   confirmSafeMessage: jest.fn(),
 }))

@@ -1,5 +1,5 @@
 import { type SyntheticEvent, type ReactElement, useCallback, useEffect, useState } from 'react'
-import { type SafeCollectibleResponse } from '@safe-global/safe-gateway-typescript-sdk'
+import { type SafeCollectibleResponse } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import ErrorMessage from '@/components/tx/ErrorMessage'
 import PagePlaceholder from '@/components/common/PagePlaceholder'
 import NftIcon from '@/public/images/common/nft.svg'

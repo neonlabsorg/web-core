@@ -1,6 +1,6 @@
 import React, { type ReactElement } from 'react'
-import type { TransactionDetails, TransactionSummary } from '@safe-global/safe-gateway-typescript-sdk'
-import { getTransactionDetails, Operation } from '@safe-global/safe-gateway-typescript-sdk'
+import type { TransactionDetails, TransactionSummary } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { getTransactionDetails, Operation } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { Box, CircularProgress } from '@mui/material'
 
 import TxSigners from '@/components/transactions/TxSigners'

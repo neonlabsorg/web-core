@@ -3,7 +3,7 @@ import { Value } from '@/components/transactions/TxDetails/TxData/DecodedData/Va
 import { isByte } from '@/utils/transaction-guards'
 import { type EIP712Normalized, normalizeTypedData } from '@/utils/web3'
 import { Box, Typography } from '@mui/material'
-import type { SafeMessage } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeMessage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { ErrorBoundary } from '@sentry/react'
 import classNames from 'classnames'
 import { isAddress } from 'ethers/lib/utils'

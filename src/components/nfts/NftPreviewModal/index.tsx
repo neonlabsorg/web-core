@@ -1,4 +1,4 @@
-import type { SafeCollectibleResponse } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeCollectibleResponse } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import ModalDialog from '@/components/common/ModalDialog'
 import css from './styles.module.css'
 import ExternalLink from '@/components/common/ExternalLink'

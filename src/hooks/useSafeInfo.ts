@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import isEqual from 'lodash/isEqual'
-import { type SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import { type SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { useAppSelector } from '@/store'
 import { defaultSafeInfo, selectSafeInfo } from '@/store/safeInfoSlice'
 

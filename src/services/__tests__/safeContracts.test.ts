@@ -1,4 +1,4 @@
-import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { _getValidatedGetContractProps, isValidMasterCopy } from '../contracts/safeContracts'
 
 describe('safeContracts', () => {

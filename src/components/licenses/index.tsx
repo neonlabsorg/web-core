@@ -393,7 +393,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-modules-deployments</TableCell>
+                <TableCell>gnosis-neon-safe-modules-deployments</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-modules-deployments/blob/main/LICENSE">
                     https://github.com/safe-global/safe-modules-deployments/blob/main/LICENSE
@@ -433,7 +433,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-apps-sdk</TableCell>
+                <TableCell>gnosis-neon-safe-apps-sdk</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-apps-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-apps-sdk/blob/main/LICENSE.md
@@ -441,7 +441,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-core-sdk</TableCell>
+                <TableCell>gnosis-neon-safe-core-sdk</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md
@@ -449,7 +449,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-core-sdk-utils</TableCell>
+                <TableCell>gnosis-neon-safe-core-sdk-utils</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md
@@ -457,7 +457,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-deployments</TableCell>
+                <TableCell>gnosis-neon-safe-deployments</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-deployments/blob/main/LICENSE">
                     https://github.com/safe-global/safe-deployments/blob/main/LICENSE
@@ -465,7 +465,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-ethers-lib</TableCell>
+                <TableCell>gnosis-neon-safe-ethers-lib</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md
@@ -473,7 +473,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-gateway-typescript-sdk</TableCell>
+                <TableCell>@neonlabs-devops/gnosis-neon-gateway-typescript-sdk</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-gateway-typescript-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-gateway-typescript-sdk/blob/main/LICENSE.md

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Card from '@mui/material/Card'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import AddCustomAppIcon from '@/public/images/apps/add-custom-app.svg'
 import { AddCustomAppModal } from '@/components/safe-apps/AddCustomAppModal'

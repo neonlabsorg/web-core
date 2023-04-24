@@ -22,7 +22,7 @@ import {
 } from '@mui/material'
 import FilterAltIcon from '@mui/icons-material/FilterAlt'
 import NftIcon from '@/public/images/common/nft.svg'
-import type { SafeCollectibleResponse } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeCollectibleResponse } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import ExternalLink from '@/components/common/ExternalLink'
 import useChainId from '@/hooks/useChainId'
 import { nftPlatforms } from '../config'

@@ -1,5 +1,5 @@
 import type { Web3Provider, JsonRpcProvider } from '@ethersproject/providers'
-import { getSafeInfo, type SafeInfo, type ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import { getSafeInfo, type SafeInfo, type ChainInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import {
   getReadOnlyFallbackHandlerContract,
   getReadOnlyGnosisSafeContract,
@@ -19,14 +19,14 @@ import { AppRoutes } from '@/config/routes'
 import { SAFE_APPS_EVENTS, trackEvent } from '@/services/analytics'
 import type { AppDispatch, AppThunk } from '@/store'
 import { showNotification } from '@/store/notificationsSlice'
-import { SafeFactory } from '@safe-global/safe-core-sdk'
-import type Safe from '@safe-global/safe-core-sdk'
-import type { DeploySafeProps } from '@safe-global/safe-core-sdk'
+import { SafeFactory } from 'gnosis-neon-safe-core-sdk'
+import type Safe from 'gnosis-neon-safe-core-sdk'
+import type { DeploySafeProps } from 'gnosis-neon-safe-core-sdk'
 import { createEthersAdapter } from '@/hooks/coreSDK/safeCoreSDK'
-import type { PredictSafeProps } from '@safe-global/safe-core-sdk/dist/src/safeFactory'
+import type { PredictSafeProps } from 'gnosis-neon-safe-core-sdk/dist/src/safeFactory'
 import { backOff } from 'exponential-backoff'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
-import { EMPTY_DATA, ZERO_ADDRESS } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import { EMPTY_DATA, ZERO_ADDRESS } from 'gnosis-neon-safe-core-sdk/dist/src/utils/constants'
 import { formatError } from '@/utils/formatters'
 import { sponsoredCall } from '@/services/tx/relaying'
 

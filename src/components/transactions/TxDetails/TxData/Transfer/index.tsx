@@ -1,8 +1,8 @@
 import EthHashInfo from '@/components/common/EthHashInfo'
 import { TransferTx } from '@/components/transactions/TxInfo'
 import { isTxQueued } from '@/utils/transaction-guards'
-import type { TransactionStatus, Transfer } from '@safe-global/safe-gateway-typescript-sdk'
-import { TransferDirection } from '@safe-global/safe-gateway-typescript-sdk'
+import type { TransactionStatus, Transfer } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { TransferDirection } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { Box, Typography } from '@mui/material'
 import React from 'react'
 

@@ -1,4 +1,4 @@
-import { RestrictedMethods } from '@safe-global/safe-apps-sdk'
+import { RestrictedMethods } from 'gnosis-neon-safe-apps-sdk'
 import type { AllowedFeatures } from '@/components/safe-apps/types'
 import { capitalize } from '@/utils/formatters'
 

@@ -1,6 +1,6 @@
 import ImageFallback from '@/components/common/ImageFallback'
 import { useTransactionType } from '@/hooks/useTransactionType'
-import type { TransactionSummary } from '@safe-global/safe-gateway-typescript-sdk'
+import type { TransactionSummary } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { Box } from '@mui/material'
 import css from './styles.module.css'
 

@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react'
-import type { BaseTransaction, RequestId, SendTransactionRequestParams } from '@safe-global/safe-apps-sdk'
+import type { BaseTransaction, RequestId, SendTransactionRequestParams } from 'gnosis-neon-safe-apps-sdk'
 
 type TxModalState = {
   isOpen: boolean

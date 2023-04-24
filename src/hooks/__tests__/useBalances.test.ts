@@ -1,4 +1,4 @@
-import { type SafeBalanceResponse, TokenType } from '@safe-global/safe-gateway-typescript-sdk'
+import { type SafeBalanceResponse, TokenType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import * as store from '@/store'
 import { renderHook } from '@/tests/test-utils'
 import useBalances from '../useBalances'

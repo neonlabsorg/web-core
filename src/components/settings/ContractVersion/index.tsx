@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { Box, SvgIcon, Typography, Alert, AlertTitle, Skeleton } from '@mui/material'
-import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'
+import { ImplementationVersionState } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 import { sameAddress } from '@/utils/addresses'
 import type { MasterCopy } from '@/hooks/useMasterCopies'

@@ -2,7 +2,7 @@ import { FormControl, FormControlLabel, Radio, RadioGroup, Typography } from '@m
 import { Controller, useFormContext } from 'react-hook-form'
 import type { BigNumber } from '@ethersproject/bignumber'
 import { safeFormatUnits } from '@/utils/formatters'
-import type { TokenInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { TokenInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { SendAssetsField, SendTxType } from '@/components/tx/modals/TokenTransferModal/SendAssetsForm'
 import useIsOnlySpendingLimitBeneficiary from '@/hooks/useIsOnlySpendingLimitBeneficiary'
 

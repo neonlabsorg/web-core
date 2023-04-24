@@ -9,11 +9,11 @@ import {
   waitFor,
 } from '@/tests/test-utils'
 import ApprovalEditor from '.'
-import { type DecodedDataResponse, type SafeBalanceResponse, TokenType } from '@safe-global/safe-gateway-typescript-sdk'
+import { type DecodedDataResponse, type SafeBalanceResponse, TokenType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { hexlify, hexZeroPad, Interface } from 'ethers/lib/utils'
 import { ERC20__factory, Multi_send__factory } from '@/types/contracts'
-import type { BaseTransaction } from '@safe-global/safe-apps-sdk'
-import { encodeMultiSendData } from '@safe-global/safe-core-sdk/dist/src/utils/transactions/utils'
+import type { BaseTransaction } from 'gnosis-neon-safe-apps-sdk'
+import { encodeMultiSendData } from 'gnosis-neon-safe-core-sdk/dist/src/utils/transactions/utils'
 import { parseUnits } from '@ethersproject/units'
 
 const PREFIX_TEXT = 'Approve access to'

@@ -1,21 +1,21 @@
 import usePendingActions from '@/hooks/usePendingActions'
 import { renderHook, waitFor } from '@/tests/test-utils'
-import type { SafeInfo, TransactionListPage, TransactionSummary } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo, TransactionListPage, TransactionSummary } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import {
   ConflictType,
   DetailedExecutionInfoType,
   LabelValue,
   TransactionListItemType,
-} from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { hexZeroPad } from 'ethers/lib/utils'
 import type { EIP1193Provider } from '@web3-onboard/core'
 import * as useWallet from '@/hooks/wallets/useWallet'
 import * as useTxQueue from '@/hooks/useTxQueue'
 import * as useSafeInfo from '@/hooks/useSafeInfo'
-import { getTransactionQueue } from '@safe-global/safe-gateway-typescript-sdk'
+import { getTransactionQueue } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
-  ...jest.requireActual('@safe-global/safe-gateway-typescript-sdk'),
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
+  ...jest.requireActual('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'),
   getTransactionQueue: jest.fn(),
 }))
 

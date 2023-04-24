@@ -4,9 +4,9 @@ import * as web3 from '@/hooks/wallets/web3'
 import * as router from 'next/router'
 import * as useSafeInfo from '@/hooks/useSafeInfo'
 import * as coreSDK from '@/hooks/coreSDK/safeCoreSDK'
-import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { act } from '@testing-library/react'
-import type Safe from '@safe-global/safe-core-sdk'
+import type Safe from 'gnosis-neon-safe-core-sdk'
 import type { JsonRpcProvider } from '@ethersproject/providers'
 
 describe('useInitSafeCoreSDK hook', () => {

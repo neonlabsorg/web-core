@@ -1,8 +1,8 @@
 import useAsync from '@/hooks/useAsync'
 import useChainId from '@/hooks/useChainId'
 import { Errors, logError } from '@/services/exceptions'
-import type { MasterCopyReponse } from '@safe-global/safe-gateway-typescript-sdk'
-import { getMasterCopies } from '@safe-global/safe-gateway-typescript-sdk'
+import type { MasterCopyReponse } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { getMasterCopies } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 export enum MasterCopyDeployer {
   GNOSIS = 'Gnosis',

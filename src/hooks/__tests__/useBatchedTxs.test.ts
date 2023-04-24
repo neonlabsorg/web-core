@@ -6,7 +6,7 @@ import type {
   TransactionListItem,
   TransactionSummary,
   TransferInfo,
-} from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import {
   ConflictType,
   DetailedExecutionInfoType,
@@ -15,7 +15,7 @@ import {
   TransactionStatus,
   TransactionTokenType,
   TransferDirection,
-} from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { getBatchableTransactions } from '@/hooks/useBatchedTxs'
 
 const mockAddressEx: AddressEx = {

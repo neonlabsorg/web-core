@@ -8,8 +8,8 @@ import type {
   Transaction,
   TransactionDetails,
   TransactionListPage,
-} from '@safe-global/safe-gateway-typescript-sdk'
-import { ConflictType, getTransactionDetails, TransactionListItemType } from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { ConflictType, getTransactionDetails, TransactionListItemType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import {
   isModuleDetailedExecutionInfo,
   isMultisigDetailedExecutionInfo,
@@ -17,12 +17,12 @@ import {
   isTransactionListItem,
   isTxQueued,
 } from './transaction-guards'
-import type { MetaTransactionData } from '@safe-global/safe-core-sdk-types/dist/src/types'
-import { OperationType } from '@safe-global/safe-core-sdk-types/dist/src/types'
+import type { MetaTransactionData } from 'gnosis-neon-safe-core-sdk-types/dist/src/types'
+import { OperationType } from 'gnosis-neon-safe-core-sdk-types/dist/src/types'
 import { getReadOnlyGnosisSafeContract } from '@/services/contracts/safeContracts'
 import extractTxInfo from '@/services/tx/extractTxInfo'
 import type { AdvancedParameters } from '@/components/tx/AdvancedParams'
-import type { TransactionOptions, SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { TransactionOptions, SafeTransaction } from 'gnosis-neon-safe-core-sdk-types'
 import { FEATURES, hasFeature } from '@/utils/chains'
 import uniqBy from 'lodash/uniqBy'
 import { Errors, logError } from '@/services/exceptions'

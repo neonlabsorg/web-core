@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import classnames from 'classnames'
 
 import SafeAppsFilters from '@/components/safe-apps/SafeAppsFilters'

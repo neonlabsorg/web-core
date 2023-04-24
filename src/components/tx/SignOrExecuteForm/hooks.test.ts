@@ -1,6 +1,6 @@
 import { renderHook } from '@/tests/test-utils'
 import { ethers } from 'ethers'
-import { type SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import { type SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { type ConnectedWallet } from '@/services/onboard'
 import * as useSafeInfoHook from '@/hooks/useSafeInfo'
 import * as wallet from '@/hooks/wallets/useWallet'

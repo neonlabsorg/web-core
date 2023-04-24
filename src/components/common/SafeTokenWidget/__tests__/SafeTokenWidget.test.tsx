@@ -1,7 +1,7 @@
 import * as nextRouter from 'next/router'
 import useChainId from '@/hooks/useChainId'
 import { render, waitFor } from '@/tests/test-utils'
-import { SafeAppAccessPolicyTypes } from '@safe-global/safe-gateway-typescript-sdk'
+import { SafeAppAccessPolicyTypes } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { BigNumber } from 'ethers'
 import SafeTokenWidget from '..'
 import { hexZeroPad } from 'ethers/lib/utils'

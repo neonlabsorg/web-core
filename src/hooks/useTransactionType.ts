@@ -5,7 +5,7 @@ import {
   TransferDirection,
   type AddressEx,
   type TransactionSummary,
-} from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { isCancellationTxInfo, isModuleExecutionInfo, isTxQueued } from '@/utils/transaction-guards'
 import useAddressBook from './useAddressBook'

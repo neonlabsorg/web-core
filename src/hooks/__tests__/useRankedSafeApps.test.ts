@@ -1,6 +1,6 @@
 import { renderHook } from '@/tests/test-utils'
 import { useRankedSafeApps } from '@/hooks/safe-apps/useRankedSafeApps'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { SafeAppsTag } from '@/config/constants'
 
 const getMockSafeApp = (props: Partial<SafeAppData>) => {

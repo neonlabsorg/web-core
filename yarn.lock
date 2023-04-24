@@ -2084,13 +2084,6 @@
   dependencies:
     tslib "^2.1.0"
 
-"@gnosis.pm/safe-deployments@1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@gnosis.pm/safe-deployments/-/safe-deployments-1.19.0.tgz#f4ba8cf92cd6fdff4241ac50e410b4a6ff89babe"
-  integrity sha512-EvHR/LjMwJm0QKXyTscRXqR9vnJwCUDiMnRNKRyXe1akW+udiYXjJTAiGuleFS4DOUSqs6DpAjYlLnXMzUsVMw==
-  dependencies:
-    semver "^7.3.7"
-
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
@@ -2727,6 +2720,13 @@
     react-transition-group "^4.4.5"
     rifm "^0.12.1"
 
+"@neonlabs-devops/gnosis-neon-gateway-typescript-sdk@^3.7.4":
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/@neonlabs-devops/gnosis-neon-gateway-typescript-sdk/-/gnosis-neon-gateway-typescript-sdk-3.7.4.tgz#17292efb7fbd71c7a1a4dc38f250f86da9aca115"
+  integrity sha512-phE9BrwikLoOItqkvYnzLLsbw6pXLAF9t+x5by/cEWGNQZDHN3F1Fs9aQzrflh2RgQ/TjxtXVh3wvcBTfpTFUg==
+  dependencies:
+    cross-fetch "^3.1.5"
+
 "@next/bundle-analyzer@^13.1.1":
   version "13.1.1"
   resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-13.1.1.tgz#f36108dcb953ea518253df5eb9e175642f78b04a"
@@ -2948,75 +2948,6 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
-
-"@safe-global/safe-apps-sdk@^7.10.1":
-  version "7.10.1"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-apps-sdk/-/safe-apps-sdk-7.10.1.tgz#debb5d69634fe9d8ef8e03f6d1cc9384f92324ab"
-  integrity sha512-2imnqAbx9XrqT3psrhe/YVpj2yW840ngJIuqv0nTiWJLKcTCzM2LJ4MH7ir7H8Sp2wdG/BqNB3SvjUAks2qNjQ==
-  dependencies:
-    "@safe-global/safe-gateway-typescript-sdk" "^3.5.3"
-    ethers "^5.7.2"
-
-"@safe-global/safe-core-sdk-types@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-core-sdk-types/-/safe-core-sdk-types-1.9.0.tgz#dba18f34ab905da6c1c03a3262aeb47cc0bead14"
-  integrity sha512-3VFhnggdLT9kWhnb35eqxEC9cVpW5Sl4E51TZo0RmH1cSzMwlNDbeGINb38PpUbw/wwXFJbCVFmeXELz2ZlCfw==
-  dependencies:
-    "@ethersproject/bignumber" "^5.7.0"
-    "@ethersproject/contracts" "^5.7.0"
-    "@gnosis.pm/safe-deployments" "1.19.0"
-    web3-core "^1.8.1"
-    web3-utils "^1.8.1"
-
-"@safe-global/safe-core-sdk-utils@^1.7.2":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-core-sdk-utils/-/safe-core-sdk-utils-1.7.2.tgz#37df64d90060b986a54426a065473eb793c97dd7"
-  integrity sha512-nlS9/vtd6rj+2IK0tgt4xq6vqdGOAa+6MwAeiYCoP1ihcqFD38k6LBn7ZdXWjRF9VBvMXTgclkjvzp+PkLKtAw==
-  dependencies:
-    "@safe-global/safe-core-sdk-types" "^1.9.0"
-    semver "^7.3.8"
-    web3-utils "^1.8.1"
-
-"@safe-global/safe-core-sdk@^3.3.2":
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-core-sdk/-/safe-core-sdk-3.3.2.tgz#571e38eec152668bf2c04771f62f1b123161ec7c"
-  integrity sha512-IhAxGyYnnG+Zl2zWe1520l00l+FT1QTeMDQlTtnhKCeISs2krXZSEKuolj/sHltXzrswuntaGElAYJyruWEG/A==
-  dependencies:
-    "@ethersproject/solidity" "^5.7.0"
-    "@safe-global/safe-core-sdk-types" "^1.9.0"
-    "@safe-global/safe-core-sdk-utils" "^1.7.2"
-    "@safe-global/safe-deployments" "^1.20.2"
-    ethereumjs-util "^7.1.5"
-    semver "^7.3.8"
-    web3-utils "^1.8.1"
-
-"@safe-global/safe-deployments@^1.20.2":
-  version "1.20.2"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-deployments/-/safe-deployments-1.20.2.tgz#a005493c584909bba82bb7f06fef40a1e69d8fa8"
-  integrity sha512-4uPNpC5RUl2muGKfWUMMduG5+vKDHZOdPmFPmBkdyG+JL3jDzihgdZzdbKERQClg5xrwPhJY38hJezUFCGPR/w==
-  dependencies:
-    semver "^7.3.7"
-
-"@safe-global/safe-ethers-lib@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-ethers-lib/-/safe-ethers-lib-1.9.2.tgz#e99e565d832e5b588c661b59936caa78aa1e3952"
-  integrity sha512-x8Lq6ViRHW9UC+SAF+VOZ8Lt7jXMhbNS/+WYhSdAKhM+SHwkaaDi03pyZgm4FK0C3Zah7vryU3dSDR/CwEtqhQ==
-  dependencies:
-    "@safe-global/safe-core-sdk-types" "^1.9.0"
-    "@safe-global/safe-core-sdk-utils" "^1.7.2"
-    ethers "5.7.2"
-
-"@safe-global/safe-gateway-typescript-sdk@^3.5.3", "@safe-global/safe-gateway-typescript-sdk@^3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-gateway-typescript-sdk/-/safe-gateway-typescript-sdk-3.7.0.tgz#2af52f1bc73759b1b6a549fed598781c8c5fce72"
-  integrity sha512-3BvlUgp0oZ1Zkn7nG3wY1jvCEE4t530BjKcaa3r0qsf0whf/ez/0gmQwk7DTOGmVmvOfjj6HHikxnrUCCX+/3Q==
-  dependencies:
-    cross-fetch "^3.1.5"
-
-"@safe-global/safe-modules-deployments@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-modules-deployments/-/safe-modules-deployments-1.1.0.tgz#e8441d6da17ed4b29a211ecb9b97fadbd7c7ca2b"
-  integrity sha512-UgSH/7Zcv6BJBBqoipKts6SKCPYPau9F1/arndsBYvb5Ayn28Q9cu/yiRbln2iI4VL21SIl9lcO/zRKJKl7QbQ==
 
 "@safe-global/safe-react-components@^2.0.5":
   version "2.0.5"
@@ -7805,6 +7736,68 @@ globrex@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
   integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
+
+gnosis-neon-safe-apps-sdk@^7.10.5:
+  version "7.10.5"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-apps-sdk/-/gnosis-neon-safe-apps-sdk-7.10.5.tgz#3fcaadfae3e44796034d015e9148287f40e9c89d"
+  integrity sha512-SJfQF0daaVqwRC3FkxkKmhigFLxluBGsbI+NkYgeca9Wkn14b5yK87V+5NyjwaWtvWDPc+EEFb+rVkod2LqZ9w==
+  dependencies:
+    "@neonlabs-devops/gnosis-neon-gateway-typescript-sdk" "^3.7.4"
+    ethers "^5.7.2"
+
+gnosis-neon-safe-core-sdk-types@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-core-sdk-types/-/gnosis-neon-safe-core-sdk-types-1.9.1.tgz#0238efc0d3b7d01464b32d896bec38cb27375f77"
+  integrity sha512-nBz+pRjFMIje1XuaDPAk0e9WR1cBNTXKzQnoa7szSRCofN6DIJHcIv2rQS0Y3F1uxDrBdZJ7NdA5uLCRp/5t4g==
+  dependencies:
+    "@ethersproject/bignumber" "^5.7.0"
+    "@ethersproject/contracts" "^5.7.0"
+    gnosis-neon-safe-deployments "^1.22.3"
+    web3-core "^1.8.1"
+    web3-utils "^1.8.1"
+
+gnosis-neon-safe-core-sdk-utils@^1.7.5:
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-core-sdk-utils/-/gnosis-neon-safe-core-sdk-utils-1.7.5.tgz#c8d0d0293fed7367add3c419a54b6f37462bb2d0"
+  integrity sha512-cU8vSZr20tE2Ek2VEnMVurQBhX+9RpV1W8RL70oShqTh7A+wOcKrDT/5LEitDvX2gLfo1rz/ofu3s7TOpfikuA==
+  dependencies:
+    gnosis-neon-safe-core-sdk-types "^1.9.1"
+    semver "^7.3.8"
+    web3-utils "^1.8.1"
+
+gnosis-neon-safe-core-sdk@^3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-core-sdk/-/gnosis-neon-safe-core-sdk-3.3.6.tgz#e78fbfdd83bbfcf2f0cb30ac8d38acee53475272"
+  integrity sha512-a5Is7snjukLGsiuKnmlsgMFpwCeyxd0Npsbi7LJSVaobEZPd8eZcrVDP/1j/Vkcu7yuqZNF9L5/4LAoYwASA9A==
+  dependencies:
+    "@ethersproject/solidity" "^5.7.0"
+    ethereumjs-util "^7.1.5"
+    gnosis-neon-safe-core-sdk-types "^1.9.1"
+    gnosis-neon-safe-core-sdk-utils "^1.7.5"
+    gnosis-neon-safe-deployments "^1.22.3"
+    semver "^7.3.8"
+    web3-utils "^1.8.1"
+
+gnosis-neon-safe-deployments@^1.22.3:
+  version "1.22.4"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-deployments/-/gnosis-neon-safe-deployments-1.22.4.tgz#8365254f829d13dc7f9a8b41713117cbfd5a4753"
+  integrity sha512-F1FDmOjlWtLN6aEkz/vn+ZXDHunn2Wu8zAOitJRc4hORr9IxLAyzJu/diy0Bblsi80VENZTwhPzBy4OkgL2JZw==
+  dependencies:
+    semver "^7.3.7"
+
+gnosis-neon-safe-ethers-lib@^1.9.6:
+  version "1.9.6"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-ethers-lib/-/gnosis-neon-safe-ethers-lib-1.9.6.tgz#90093c5e80dd538602652efb76ff74c48a3904d4"
+  integrity sha512-C6I/oj154d/Lb4GgQdBeNeXMIkUVhOTCFjXf4aOzeVoZhQBSVRqEYgPJKc60qCRI98mNyRVwkj4iapPTQOQwvA==
+  dependencies:
+    ethers "5.7.2"
+    gnosis-neon-safe-core-sdk-types "^1.9.1"
+    gnosis-neon-safe-core-sdk-utils "^1.7.5"
+
+gnosis-neon-safe-modules-deployments@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-modules-deployments/-/gnosis-neon-safe-modules-deployments-1.1.3.tgz#24c17e7097a6c25f825c1e117fd924294525e009"
+  integrity sha512-LC1SOw/duAS36h2O9Gd07co6gCIYjsCRvxGh9PzYVBfYlR87RHTwbjjyNcUW54RiCzNQOnRLDhtbFgyqcRqLlQ==
 
 gopd@^1.0.1:
   version "1.0.1"

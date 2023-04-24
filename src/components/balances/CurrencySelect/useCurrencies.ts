@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
-import type { FiatCurrencies } from '@safe-global/safe-gateway-typescript-sdk'
-import { getFiatCurrencies } from '@safe-global/safe-gateway-typescript-sdk'
+import type { FiatCurrencies } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { getFiatCurrencies } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import useAsync from '@/hooks/useAsync'
 import { Errors, logError } from '@/services/exceptions'
 

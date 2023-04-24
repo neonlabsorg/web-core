@@ -7,7 +7,7 @@ import {
   TransactionInfoType,
   TransactionListItemType,
   TransactionStatus,
-} from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { defaultSafeInfo } from '@/store/safeInfoSlice'
 
 describe('AppFrame', () => {

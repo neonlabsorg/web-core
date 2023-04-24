@@ -1,5 +1,5 @@
-import { getSafeMessages } from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeMessageListPage } from '@safe-global/safe-gateway-typescript-sdk'
+import { getSafeMessages } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { SafeMessageListPage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { useAppSelector } from '@/store'
 import useAsync from '@/hooks/useAsync'

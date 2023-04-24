@@ -15,7 +15,7 @@ import type {
   DetailedExecutionInfo,
   TransactionDetails,
   TransactionSummary,
-} from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import useWallet from '@/hooks/wallets/useWallet'
 import useIsPending from '@/hooks/useIsPending'

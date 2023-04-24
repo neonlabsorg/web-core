@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react'
-import type { Label } from '@safe-global/safe-gateway-typescript-sdk'
-import { LabelValue } from '@safe-global/safe-gateway-typescript-sdk'
+import type { Label } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { LabelValue } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import css from './styles.module.css'
 import useSafeInfo from '@/hooks/useSafeInfo'
 

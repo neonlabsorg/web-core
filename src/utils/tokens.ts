@@ -1,6 +1,6 @@
 import { getWeb3ReadOnly } from '@/hooks/wallets/web3'
 import { ERC20__factory } from '@/types/contracts'
-import { type TokenInfo, TokenType } from '@safe-global/safe-gateway-typescript-sdk'
+import { type TokenInfo, TokenType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { BigNumber } from 'ethers'
 
 export const UNLIMITED_APPROVAL_AMOUNT = BigNumber.from(2).pow(256).sub(1)

@@ -1,6 +1,6 @@
 import type { ComponentProps, ReactElement } from 'react'
-import type { SettingsChange } from '@safe-global/safe-gateway-typescript-sdk'
-import { SettingsInfoType } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SettingsChange } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { SettingsInfoType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import EthHashInfo from '@/components/common/EthHashInfo'
 import { InfoDetails } from '@/components/transactions/InfoDetails'
 import { ThresholdWarning } from '@/components/transactions/Warning'

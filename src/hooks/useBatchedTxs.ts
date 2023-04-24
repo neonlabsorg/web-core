@@ -1,4 +1,4 @@
-import type { Transaction, TransactionListItem } from '@safe-global/safe-gateway-typescript-sdk'
+import type { Transaction, TransactionListItem } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { isMultisigExecutionInfo, isTransactionListItem } from '@/utils/transaction-guards'
 import { useMemo } from 'react'
 import useSafeInfo from '@/hooks/useSafeInfo'

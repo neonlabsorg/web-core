@@ -1,5 +1,5 @@
 import { type ReactElement } from 'react'
-import { TransferDirection } from '@safe-global/safe-gateway-typescript-sdk'
+import { TransferDirection } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import css from './styles.module.css'
 import { formatVisualAmount } from '@/utils/formatters'
 import TokenIcon from '../TokenIcon'

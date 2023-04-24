@@ -1,4 +1,4 @@
-import type { SafeMessage } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeMessage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { renderHook } from '@/tests/test-utils'
 import * as useIsSafeOwnerHook from '@/hooks/useIsSafeOwner'

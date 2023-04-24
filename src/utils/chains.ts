@@ -1,4 +1,4 @@
-import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ChainInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { getExplorerLink } from './gateway'
 
 export enum FEATURES {

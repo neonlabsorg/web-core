@@ -1,4 +1,4 @@
-import type { SafeBalanceResponse, SafeInfo, TokenType } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeBalanceResponse, SafeInfo, TokenType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { hexZeroPad } from 'ethers/lib/utils'
 import type { AddedSafesState } from '../addedSafesSlice'
 import { addOrUpdateSafe, removeSafe, addedSafesSlice, updateAddedSafeBalance } from '../addedSafesSlice'

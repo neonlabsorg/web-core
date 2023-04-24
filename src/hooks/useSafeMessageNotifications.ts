@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from 'react'
-import { SafeMessageStatus } from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeMessageListItem } from '@safe-global/safe-gateway-typescript-sdk'
+import { SafeMessageStatus } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { SafeMessageListItem } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { SafeMsgEvent, safeMsgSubscribe } from '@/services/safe-messages/safeMsgEvents'
 import { useAppDispatch, useAppSelector } from '@/store'

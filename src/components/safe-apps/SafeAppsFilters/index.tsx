@@ -16,7 +16,7 @@ import FormControlLabel from '@mui/material/FormControlLabel'
 import Tooltip from '@mui/material/Tooltip'
 import CloseIcon from '@mui/icons-material/Close'
 import type { SelectChangeEvent } from '@mui/material/Select'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { getUniqueTags } from '@/components/safe-apps/utils'
 import SearchIcon from '@/public/images/common/search.svg'

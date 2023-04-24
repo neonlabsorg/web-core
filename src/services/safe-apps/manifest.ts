@@ -1,6 +1,6 @@
 import type { AllowedFeatures, SafeAppDataWithPermissions } from '@/components/safe-apps/types'
 import { isRelativeUrl, trimTrailingSlash } from '@/utils/url'
-import { SafeAppAccessPolicyTypes } from '@safe-global/safe-gateway-typescript-sdk'
+import { SafeAppAccessPolicyTypes } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 type AppManifestIcon = {
   src: string

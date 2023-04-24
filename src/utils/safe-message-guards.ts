@@ -1,5 +1,5 @@
-import { SafeMessageListItemType } from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeMessageListItem, SafeMessage, SafeMessageDateLabel } from '@safe-global/safe-gateway-typescript-sdk'
+import { SafeMessageListItemType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { SafeMessageListItem, SafeMessage, SafeMessageDateLabel } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 export const isSafeMessageListDateLabel = (item: SafeMessageListItem): item is SafeMessageDateLabel => {
   return item.type === SafeMessageListItemType.DATE_LABEL

@@ -11,7 +11,7 @@ import IconButton from '@mui/material/IconButton'
 import SvgIcon from '@mui/material/SvgIcon'
 import Box from '@mui/material/Box'
 import { Link as MuiLink } from '@mui/material'
-import { type ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import { type ChainInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import AddIcon from '@/public/images/common/add.svg'
 import useChains from '@/hooks/useChains'

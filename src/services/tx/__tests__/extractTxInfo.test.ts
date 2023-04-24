@@ -1,4 +1,4 @@
-import type { TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
+import type { TransactionDetails } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import extractTxInfo from '../extractTxInfo'
 
 describe('extractTxInfo', () => {

@@ -1,5 +1,5 @@
 import { hexlify, hexZeroPad, toUtf8Bytes } from 'ethers/lib/utils'
-import type { ChainInfo, SafeInfo, SafeMessage } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ChainInfo, SafeInfo, SafeMessage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import MsgModal from '@/components/safe-messages/MsgModal'
 import * as useIsWrongChainHook from '@/hooks/useIsWrongChain'
@@ -14,8 +14,8 @@ import { render, act, fireEvent, waitFor } from '@/tests/test-utils'
 import type { ConnectedWallet } from '@/hooks/wallets/useOnboard'
 import type { EIP1193Provider, WalletState, AppState, OnboardAPI } from '@web3-onboard/core'
 
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
-  ...jest.requireActual('@safe-global/safe-gateway-typescript-sdk'),
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
+  ...jest.requireActual('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'),
   getSafeMessage: jest.fn(),
 }))
 

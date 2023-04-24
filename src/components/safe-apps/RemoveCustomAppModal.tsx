@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { DialogActions, DialogContent, Typography, Button } from '@mui/material'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import ModalDialog from '@/components/common/ModalDialog'
 
 type Props = {

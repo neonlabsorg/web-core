@@ -2,7 +2,7 @@ import {
   getIncomingTransfers,
   getMultisigTransactions,
   getModuleTransactions,
-} from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import * as router from 'next/router'
 
 import type { TxFilterType } from '@/utils/tx-history-filter'
@@ -19,7 +19,7 @@ import { renderHook } from '@/tests/test-utils'
 import type { NextRouter } from 'next/router'
 import { type TxFilterFormState } from '@/components/transactions/TxFilterForm'
 
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
   getIncomingTransfers: jest.fn(() => Promise.resolve({ results: [] })),
   getMultisigTransactions: jest.fn(() => Promise.resolve({ results: [] })),
   getModuleTransactions: jest.fn(() => Promise.resolve({ results: [] })),

@@ -1,6 +1,6 @@
 import { HexEncodedData } from '@/components/transactions/HexEncodedData'
-import { Operation } from '@safe-global/safe-gateway-typescript-sdk'
-import type { TransactionData } from '@safe-global/safe-gateway-typescript-sdk'
+import { Operation } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { TransactionData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { useState, useEffect } from 'react'
 import type { Dispatch, ReactElement, SetStateAction } from 'react'
 import type { AccordionProps } from '@mui/material/Accordion/Accordion'

@@ -1,6 +1,6 @@
-import type { Operation, TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
-import { proposeTransaction } from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { Operation, TransactionDetails } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { proposeTransaction } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { SafeTransaction } from 'gnosis-neon-safe-core-sdk-types'
 
 const proposeTx = async (
   chainId: string,

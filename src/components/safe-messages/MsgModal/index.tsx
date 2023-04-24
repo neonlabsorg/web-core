@@ -1,9 +1,9 @@
 import { Grid, DialogActions, Button, Box, Typography, DialogContent, SvgIcon } from '@mui/material'
 import { useCallback, useMemo, useState } from 'react'
-import { getSafeMessage } from '@safe-global/safe-gateway-typescript-sdk'
+import { getSafeMessage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { ReactElement } from 'react'
-import type { SafeMessage } from '@safe-global/safe-gateway-typescript-sdk'
-import type { RequestId } from '@safe-global/safe-apps-sdk'
+import type { SafeMessage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { RequestId } from 'gnosis-neon-safe-apps-sdk'
 
 import ModalDialog, { ModalDialogTitle } from '@/components/common/ModalDialog'
 import SafeAppIconCard from '@/components/safe-apps/SafeAppIconCard'

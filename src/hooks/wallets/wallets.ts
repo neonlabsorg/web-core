@@ -1,6 +1,6 @@
 import { CYPRESS_MNEMONIC, TREZOR_APP_URL, TREZOR_EMAIL, WC_BRIDGE } from '@/config/constants'
 import { type RecommendedInjectedWallets, type WalletInit } from '@web3-onboard/common/dist/types.d'
-import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ChainInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import coinbaseModule from '@web3-onboard/coinbase'
 import injectedWalletModule, { ProviderLabel } from '@web3-onboard/injected-wallets'
@@ -14,7 +14,7 @@ import pairingModule from '@/services/pairing/module'
 import e2eWalletModule from '@/tests/e2e-wallet'
 import { type ConnectedWallet } from '@/hooks/wallets/useOnboard'
 import { getWeb3ReadOnly } from '@/hooks/wallets/web3'
-import { EMPTY_DATA } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import { EMPTY_DATA } from 'gnosis-neon-safe-core-sdk/dist/src/utils/constants'
 
 export const enum WALLET_KEYS {
   COINBASE = 'COINBASE',

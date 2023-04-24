@@ -1,4 +1,4 @@
-import type { TransactionListItem } from '@safe-global/safe-gateway-typescript-sdk'
+import type { TransactionListItem } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { groupConflictingTxs } from '@/utils/tx-list'
 

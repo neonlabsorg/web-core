@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { getOwnedSafes, type OwnedSafes } from '@safe-global/safe-gateway-typescript-sdk'
+import { getOwnedSafes, type OwnedSafes } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import useLocalStorage from '@/services/local-storage/useLocalStorage'
 import useWallet from '@/hooks/wallets/useWallet'

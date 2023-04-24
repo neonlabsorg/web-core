@@ -1,7 +1,7 @@
 import React from 'react'
-import * as safeAppsGatewaySDK from '@safe-global/safe-gateway-typescript-sdk'
-import { SafeAppFeatures } from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import * as safeAppsGatewaySDK from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { SafeAppFeatures } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import {
   render,
@@ -20,8 +20,8 @@ import CustomSafeAppsPage from '@/pages/apps/custom'
 import * as safeAppsService from '@/services/safe-apps/manifest'
 import { LS_NAMESPACE } from '@/config/constants'
 
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
-  ...jest.requireActual('@safe-global/safe-gateway-typescript-sdk'),
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
+  ...jest.requireActual('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'),
   getSafeApps: (chainId: string) => Promise.resolve(mockedSafeApps),
 }))
 

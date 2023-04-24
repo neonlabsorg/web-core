@@ -1,9 +1,9 @@
 import TokenIcon from '@/components/common/TokenIcon'
-import type { BaseTransaction } from '@safe-global/safe-apps-sdk'
+import type { BaseTransaction } from 'gnosis-neon-safe-apps-sdk'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
 import { Accordion, AccordionDetails, AccordionSummary, Box, IconButton, Skeleton, Typography } from '@mui/material'
-import type { DecodedDataResponse } from '@safe-global/safe-gateway-typescript-sdk'
+import type { DecodedDataResponse } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { groupBy } from 'lodash'
 import css from './styles.module.css'
 import { UNLIMITED_APPROVAL_AMOUNT } from '@/utils/tokens'

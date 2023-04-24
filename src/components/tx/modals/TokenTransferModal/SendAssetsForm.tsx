@@ -13,7 +13,7 @@ import {
   Box,
   SvgIcon,
 } from '@mui/material'
-import { type TokenInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import { type TokenInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 
 import TokenIcon from '@/components/common/TokenIcon'

@@ -1,11 +1,11 @@
-import * as safeAppsGatewaySDK from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import * as safeAppsGatewaySDK from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { render, screen, waitFor } from '@/tests/test-utils'
 import SafeAppsDashboardSection from '@/components/dashboard/SafeAppsDashboardSection/SafeAppsDashboardSection'
 import { LS_NAMESPACE } from '@/config/constants'
 
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
-  ...jest.requireActual('@safe-global/safe-gateway-typescript-sdk'),
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
+  ...jest.requireActual('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'),
   getSafeApps: (chainId: string): Promise<SafeAppData[]> =>
     Promise.resolve([
       {

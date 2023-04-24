@@ -1,6 +1,6 @@
 import { render, waitFor } from '@/tests/test-utils'
 import * as useSafeInfoHook from '@/hooks/useSafeInfo'
-import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { ethers } from 'ethers'
 import TransactionGuards from '..'
 

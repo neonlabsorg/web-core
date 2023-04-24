@@ -7,7 +7,7 @@ import Button from '@mui/material/Button'
 import SvgIcon from '@mui/material/SvgIcon'
 import IconButton from '@mui/material/IconButton'
 import Tooltip from '@mui/material/Tooltip'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { getSafeAppUrl } from '@/components/safe-apps/SafeAppCard'
 import ChainIndicator from '@/components/common/ChainIndicator'

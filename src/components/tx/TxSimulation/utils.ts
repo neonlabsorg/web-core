@@ -1,8 +1,8 @@
-import { generatePreValidatedSignature } from '@safe-global/safe-core-sdk/dist/src/utils/signatures'
-import EthSafeTransaction from '@safe-global/safe-core-sdk/dist/src/utils/transactions/SafeTransaction'
-import { encodeMultiSendData } from '@safe-global/safe-core-sdk/dist/src/utils/transactions/utils'
-import { type SafeInfo, type ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
-import type { MetaTransactionData, SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import { generatePreValidatedSignature } from 'gnosis-neon-safe-core-sdk/dist/src/utils/signatures'
+import EthSafeTransaction from 'gnosis-neon-safe-core-sdk/dist/src/utils/transactions/SafeTransaction'
+import { encodeMultiSendData } from 'gnosis-neon-safe-core-sdk/dist/src/utils/transactions/utils'
+import { type SafeInfo, type ChainInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { MetaTransactionData, SafeTransaction } from 'gnosis-neon-safe-core-sdk-types'
 
 import {
   getReadOnlyMultiSendCallOnlyContract,

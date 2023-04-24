@@ -1,10 +1,10 @@
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from 'gnosis-neon-safe-core-sdk-types'
 import type { BigNumber } from 'ethers'
 import type { EthersError } from '@/utils/ethers-utils'
 
 import useAsync from './useAsync'
 import ContractErrorCodes from '@/services/contracts/ContractErrorCodes'
-import { type SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import { type SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { createWeb3, useWeb3ReadOnly } from '@/hooks/wallets/web3'
 import { type JsonRpcProvider } from '@ethersproject/providers'
 import { type ConnectedWallet } from '@/services/onboard'

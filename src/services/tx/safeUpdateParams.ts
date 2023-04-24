@@ -1,11 +1,11 @@
-import type { MetaTransactionData } from '@safe-global/safe-core-sdk-types'
-import { OperationType } from '@safe-global/safe-core-sdk-types'
-import type GnosisSafeContractEthers from '@safe-global/safe-ethers-lib/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
-import type { ChainInfo, SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { MetaTransactionData } from 'gnosis-neon-safe-core-sdk-types'
+import { OperationType } from 'gnosis-neon-safe-core-sdk-types'
+import type GnosisSafeContractEthers from 'gnosis-neon-safe-ethers-lib/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
+import type { ChainInfo, SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { getReadOnlyFallbackHandlerContract, getReadOnlyGnosisSafeContract } from '@/services/contracts/safeContracts'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 import { assertValidSafeVersion } from '@/hooks/coreSDK/safeCoreSDK'
-import { SAFE_FEATURES } from '@safe-global/safe-core-sdk-utils'
+import { SAFE_FEATURES } from 'gnosis-neon-safe-core-sdk-utils'
 import { hasSafeFeature } from '@/utils/safe-versions'
 
 const getChangeFallbackHandlerCallData = (

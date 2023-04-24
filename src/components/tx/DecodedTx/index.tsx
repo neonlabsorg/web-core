@@ -1,12 +1,12 @@
 import type { SyntheticEvent, ReactElement } from 'react'
 import { Accordion, AccordionDetails, AccordionSummary, Box, Skeleton } from '@mui/material'
-import { type SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import { type SafeTransaction } from 'gnosis-neon-safe-core-sdk-types'
 import {
   type DecodedDataResponse,
   getDecodedData,
   getTransactionDetails,
   type TransactionDetails,
-} from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import useChainId from '@/hooks/useChainId'
 import useAsync from '@/hooks/useAsync'
 import { MethodDetails } from '@/components/transactions/TxDetails/TxData/DecodedData/MethodDetails'

@@ -1,6 +1,6 @@
 import * as spendingLimit from '@/services/contracts/spendingLimitContracts'
 import { JsonRpcProvider } from '@ethersproject/providers'
-import { ZERO_ADDRESS } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import { ZERO_ADDRESS } from 'gnosis-neon-safe-core-sdk/dist/src/utils/constants'
 import type { AllowanceModule } from '@/types/contracts'
 import { ERC20__factory } from '@/types/contracts'
 import {
@@ -11,7 +11,7 @@ import {
 import { BigNumber } from '@ethersproject/bignumber'
 import * as web3 from '../wallets/web3'
 import { keccak256, toUtf8Bytes } from 'ethers/lib/utils'
-import { TokenType } from '@safe-global/safe-gateway-typescript-sdk'
+import { TokenType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 const mockProvider = new JsonRpcProvider()
 const mockModule = {

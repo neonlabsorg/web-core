@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import isEqual from 'lodash/isEqual'
-import { type SafeBalanceResponse } from '@safe-global/safe-gateway-typescript-sdk'
+import { type SafeBalanceResponse } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { useAppSelector } from '@/store'
 import { initialBalancesState, selectBalances } from '@/store/balancesSlice'
 

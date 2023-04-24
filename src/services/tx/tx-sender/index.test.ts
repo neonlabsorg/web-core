@@ -1,8 +1,8 @@
 import { setSafeSDK } from '@/hooks/coreSDK/safeCoreSDK'
-import type Safe from '@safe-global/safe-core-sdk'
-import { type TransactionResult } from '@safe-global/safe-core-sdk-types'
-import { type TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
-import { getTransactionDetails, postSafeGasEstimation } from '@safe-global/safe-gateway-typescript-sdk'
+import type Safe from 'gnosis-neon-safe-core-sdk'
+import { type TransactionResult } from 'gnosis-neon-safe-core-sdk-types'
+import { type TransactionDetails } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { getTransactionDetails, postSafeGasEstimation } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import extractTxInfo from '../extractTxInfo'
 import proposeTx from '../proposeTransaction'
 import * as txEvents from '../txEvents'
@@ -19,7 +19,7 @@ import { ErrorCode } from '@ethersproject/logger'
 import { waitFor } from '@/tests/test-utils'
 import { ethers } from 'ethers'
 import * as safeContracts from '@/services/contracts/safeContracts'
-import type MultiSendCallOnlyEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/MultiSendCallOnly/MultiSendCallOnlyEthersContract'
+import type MultiSendCallOnlyEthersContract from 'gnosis-neon-safe-ethers-lib/dist/src/contracts/MultiSendCallOnly/MultiSendCallOnlyEthersContract'
 
 const setupFetchStub = (data: any) => (_url: string) => {
   return Promise.resolve({
@@ -32,7 +32,7 @@ import type { EIP1193Provider, OnboardAPI, WalletState, AppState } from '@web3-o
 import { hexZeroPad } from 'ethers/lib/utils'
 
 // Mock getTransactionDetails
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
   getTransactionDetails: jest.fn(),
   postSafeGasEstimation: jest.fn(() => Promise.resolve({ safeTxGas: 60000, recommendedNonce: 17 })),
   Operation: {

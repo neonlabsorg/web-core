@@ -1,5 +1,5 @@
 import chains from '@/config/chains'
-import type { SafeCollectibleResponse } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeCollectibleResponse } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 type NftPlatform = {
   title: string

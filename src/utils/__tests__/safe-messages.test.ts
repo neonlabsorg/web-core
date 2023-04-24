@@ -1,5 +1,5 @@
 import { ethers } from 'ethers'
-import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 import { generateSafeMessageTypedData, supportsEIP1271 } from '../safe-messages'
 import { hexZeroPad } from 'ethers/lib/utils'

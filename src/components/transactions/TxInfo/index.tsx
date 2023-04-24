@@ -6,8 +6,8 @@ import type {
   TransactionInfo,
   MultiSend,
   SettingsChange,
-} from '@safe-global/safe-gateway-typescript-sdk'
-import { SettingsInfoType } from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { SettingsInfoType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import TokenAmount from '@/components/common/TokenAmount'
 import {
   isCreationTxInfo,

@@ -1,6 +1,6 @@
 // TODO: Upgrade onboard/core once https://github.com/blocknative/web3-onboard/issues/1385 is fixed
 import Onboard, { type EIP1193Provider, type OnboardAPI } from '@web3-onboard/core'
-import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ChainInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { hexValue } from '@ethersproject/bytes'
 import { getAllWallets, getRecommendedInjectedWallets } from '@/hooks/wallets/wallets'
 import { getRpcServiceUrl } from '@/hooks/wallets/web3'

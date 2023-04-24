@@ -1,6 +1,6 @@
 import type { Middleware } from '@reduxjs/toolkit'
 import { createSelector } from '@reduxjs/toolkit'
-import type { TransactionListPage } from '@safe-global/safe-gateway-typescript-sdk'
+import type { TransactionListPage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { RootState } from '@/store'
 import { makeLoadableSlice } from './common'
 import { isMultisigExecutionInfo, isTransactionListItem } from '@/utils/transaction-guards'
