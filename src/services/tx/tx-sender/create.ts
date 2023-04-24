@@ -1,7 +1,11 @@
 import { isLegacyVersion } from '@/hooks/coreSDK/safeCoreSDK'
 import { Errors, logError } from '@/services/exceptions'
 import type { SafeTransactionEstimation, TransactionDetails } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
-import { getTransactionDetails, Operation, postSafeGasEstimation } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import {
+  getTransactionDetails,
+  Operation,
+  postSafeGasEstimation,
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { AddOwnerTxParams, RemoveOwnerTxParams, SwapOwnerTxParams } from 'gnosis-neon-safe-core-sdk'
 import type { MetaTransactionData, SafeTransaction, SafeTransactionDataPartial } from 'gnosis-neon-safe-core-sdk-types'
 import { EMPTY_DATA } from 'gnosis-neon-safe-core-sdk/dist/src/utils/constants'

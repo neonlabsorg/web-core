@@ -1,4 +1,8 @@
-import { type InternalTransaction, Operation, type TransactionData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import {
+  type InternalTransaction,
+  Operation,
+  type TransactionData,
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { AccordionProps } from '@mui/material/Accordion/Accordion'
 import { useCurrentChain } from '@/hooks/useChains'
 import { formatVisualAmount } from '@/utils/formatters'

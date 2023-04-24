@@ -9,7 +9,11 @@ import {
   waitFor,
 } from '@/tests/test-utils'
 import ApprovalEditor from '.'
-import { type DecodedDataResponse, type SafeBalanceResponse, TokenType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import {
+  type DecodedDataResponse,
+  type SafeBalanceResponse,
+  TokenType,
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { hexlify, hexZeroPad, Interface } from 'ethers/lib/utils'
 import { ERC20__factory, Multi_send__factory } from '@/types/contracts'
 import type { BaseTransaction } from 'gnosis-neon-safe-apps-sdk'

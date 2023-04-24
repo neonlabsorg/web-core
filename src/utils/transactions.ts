@@ -9,7 +9,11 @@ import type {
   TransactionDetails,
   TransactionListPage,
 } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
-import { ConflictType, getTransactionDetails, TransactionListItemType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import {
+  ConflictType,
+  getTransactionDetails,
+  TransactionListItemType,
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import {
   isModuleDetailedExecutionInfo,
   isMultisigDetailedExecutionInfo,

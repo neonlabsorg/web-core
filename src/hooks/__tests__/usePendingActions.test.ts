@@ -1,6 +1,10 @@
 import usePendingActions from '@/hooks/usePendingActions'
 import { renderHook, waitFor } from '@/tests/test-utils'
-import type { SafeInfo, TransactionListPage, TransactionSummary } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type {
+  SafeInfo,
+  TransactionListPage,
+  TransactionSummary,
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import {
   ConflictType,
   DetailedExecutionInfoType,
