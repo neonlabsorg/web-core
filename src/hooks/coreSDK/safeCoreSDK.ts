@@ -64,13 +64,7 @@ export const initSafeSDK = async (provider: JsonRpcProvider, safe: SafeInfo): Pr
 
     isL1SafeMasterCopy = masterCopy === safeL1Deployment?.defaultAddress
     const isL2SafeMasterCopy = masterCopy === safeL2Deployment?.defaultAddress
-
-    // Unknown deployment, which we do not want to support
-    if (!isL1SafeMasterCopy && !isL2SafeMasterCopy) {
-      return Promise.resolve(undefined)
-    }
   }
-
   // Legacy Safe contracts
   if (isLegacyVersion(safeVersion)) {
     isL1SafeMasterCopy = true
