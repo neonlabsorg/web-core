@@ -6,7 +6,7 @@ on:
 
 jobs:
   e2e:
-    runs-on: ubuntu-latest
+    runs-on: gha-runner-scale-set
     name: Safe Apps E2E tests
     steps:
       - name: Cancel previous runs
